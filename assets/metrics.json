@@ -1,0 +1,37 @@
+[
+ {
+  "model_name": "Linear Regression",
+  "r_squared": 0.7835726930039906,
+  "rmse": 5796.556335884076
+ },
+ {
+  "model_name": "Decision Tree Regression",
+  "r_squared": 0.7274266694227429,
+  "rmse": 6505.126011068003
+ },
+ {
+  "model_name": "SVR",
+  "r_squared": -0.07149463293888703,
+  "rmse": 12897.603845639394
+ },
+ {
+  "model_name": "Random Forest Regression",
+  "r_squared": 0.8653287942538117,
+  "rmse": 4572.475714707043
+ },
+ {
+  "model_name": "Extra Trees Regression",
+  "r_squared": 0.8459812345527638,
+  "rmse": 4889.909846396061
+ },
+ {
+  "model_name": "LGBM Regression",
+  "r_squared": 0.8628375768348785,
+  "rmse": 4614.573925219286
+ },
+ {
+  "model_name": "XGB Regression",
+  "r_squared": 0.8341294992434585,
+  "rmse": 5074.562562932742
+ }
+]

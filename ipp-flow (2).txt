@@ -1,0 +1,21 @@
+1. Fetch Dataset-
+	i. Downloading the dataset 
+	ii. Splitting the dataset into train and test data
+2. Extract Features-
+	i. Extract the features from the preprocessed data
+	ii. Extract the labels from the preprocessed data
+	iii. Save both features and labels
+3. Preprocess Features-
+	i. Preprocess numerical features (Standardization)
+	ii. Preprocess categorical features (One Hot Encoding)
+	iii. Drop non-preprocessed features
+	iv. Save the preprocessed features
+4. Generate metrics for ml algorithm (r squared score and rmse score for linear regression,svr, decision tree regressor, random forest regressor, extra trees regressor, lightgbm regressor, xgboost regressor)
+5. Select the best model based on r squared score (both random forest and lighgbm were giving around 86% r squared. but i have chosen lighgbm as its more faster than random forest in hyperparameter tuning)
+6. Hyperparameter Tuning with optuna - Got around 88% r squared after tuning the lightgbm model.
+7. Saving the final model as joblib file.
+8. Conversion into modular programs.
+9. Done logging and exceptional handling.
+10. REMAINING THINGS- 
+	i. Database handling
+	ii. Prediction pipeline

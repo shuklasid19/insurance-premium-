@@ -1,0 +1,1757 @@
+2021-08-27/14:09:51		Entered train_pipeline method of TrainingPipeline class.
+2021-08-27/14:09:51		Successfully started model training pipeline.
+2021-08-27/14:09:51		Exception occured in train_pipeline method of TrainingPipeline class. Exception message: __init__() missing 1 required positional argument: 'file_object'
+2021-08-27/14:09:51		Model training pipeline unsuccessful. Exited train_pipeline method of TrainingPipeline class
+2021-08-27/14:10:59		Entered train_pipeline method of TrainingPipeline class.
+2021-08-27/14:10:59		Successfully started model training pipeline.
+2021-08-27/14:10:59		Entered fetch_dataset method of DataFetcher class.
+2021-08-27/14:10:59		Dataset downloaded successfully.
+2021-08-27/14:10:59		Entered split_dataset method of DataFetcher class.
+2021-08-27/14:10:59		Successfully read original_dataset.
+2021-08-27/14:10:59		Successfully split train and test data with test_size=0.2.
+2021-08-27/14:10:59		Successfully saved train and test data as train.csv and test.csv respectively.
+2021-08-27/14:10:59		Exception occured in train_pipeline method of TrainingPipeline class. Exception message: [Errno 2] No such file or directory: 'assets\\data\\train_preprocessed.csv'
+2021-08-27/14:10:59		Model training pipeline unsuccessful. Exited train_pipeline method of TrainingPipeline class
+2021-08-27/14:14:33		Entered train_pipeline method of TrainingPipeline class.
+2021-08-27/14:14:33		Successfully started model training pipeline.
+2021-08-27/14:14:33		Entered fetch_dataset method of DataFetcher class.
+2021-08-27/14:14:33		Dataset downloaded successfully.
+2021-08-27/14:14:33		Entered split_dataset method of DataFetcher class.
+2021-08-27/14:14:33		Successfully read original_dataset.
+2021-08-27/14:14:33		Successfully split train and test data with test_size=0.2.
+2021-08-27/14:14:33		Successfully saved train and test data as train.csv and test.csv respectively.
+2021-08-27/14:14:33		Entered extract_features method of FeatureExtractor class
+2021-08-27/14:14:33		Train and test features read successfully.
+2021-08-27/14:14:33		Train and test features saved as train_features.csv and test_features.csv respectively and successfully.
+2021-08-27/14:14:33		Entered extract_labels method of FeatureExtractor class
+2021-08-27/14:14:33		Train and test features read successfully.
+2021-08-27/14:14:33		Train and test features saved as train_labels.csv and test_labels.csv respectively and successfully.
+2021-08-27/14:14:33		Entered get_num_features method of FeaturePreprocessor class.
+2021-08-27/14:14:33		Successfully got list of numerical features.
+2021-08-27/14:14:33		Entered get_cat_features method of FeaturePreprocessor class.
+2021-08-27/14:14:33		Successfully returned list of categorical features.
+2021-08-27/14:14:33		Entered preprocess_num_features method of FeaturePreprocessor class.
+2021-08-27/14:14:33		Entered preprocess_cat_features method of FeaturePreprocessor class.
+2021-08-27/14:14:33		Successfully preprocessd categorical columns.
+2021-08-27/14:14:33		Entered drop_features method of FeaturePreprocessor class.
+2021-08-27/14:14:33		Entered get_cat_features method of FeaturePreprocessor class.
+2021-08-27/14:14:33		Successfully returned list of categorical features.
+2021-08-27/14:14:33		Successfully dropped features.
+2021-08-27/14:14:33		Entered drop_features method of FeaturePreprocessor class.
+2021-08-27/14:14:33		Entered get_cat_features method of FeaturePreprocessor class.
+2021-08-27/14:14:33		Successfully returned list of categorical features.
+2021-08-27/14:14:33		Successfully dropped features.
+2021-08-27/14:14:33		Entered save_preprocessed_features method of FeaturePreprocessor class.
+2021-08-27/14:14:33		Successfully saved preprocessed features.
+2021-08-27/14:14:33		Entered save_preprocessed_features method of FeaturePreprocessor class.
+2021-08-27/14:14:33		Successfully saved preprocessed features.
+2021-08-27/14:14:33		Entered create_model_metrics method of ModelMetricsGenerator class.
+2021-08-27/14:14:33		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:14:34		Successfully trained model.
+2021-08-27/14:14:34		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:14:34		Successfully predicted X_test.
+2021-08-27/14:14:34		Successfully calculated model scores.
+2021-08-27/14:14:34		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:14:34		Successfully trained model.
+2021-08-27/14:14:34		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:14:34		Successfully predicted X_test.
+2021-08-27/14:14:34		Successfully calculated model scores.
+2021-08-27/14:14:34		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:14:34		Successfully trained model.
+2021-08-27/14:14:34		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:14:34		Successfully predicted X_test.
+2021-08-27/14:14:34		Successfully calculated model scores.
+2021-08-27/14:14:34		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:14:34		Successfully trained model.
+2021-08-27/14:14:34		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:14:34		Successfully predicted X_test.
+2021-08-27/14:14:34		Successfully calculated model scores.
+2021-08-27/14:14:34		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:14:34		Successfully trained model.
+2021-08-27/14:14:34		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:14:34		Successfully predicted X_test.
+2021-08-27/14:14:34		Successfully calculated model scores.
+2021-08-27/14:14:34		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:14:35		Successfully trained model.
+2021-08-27/14:14:35		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:14:35		Successfully predicted X_test.
+2021-08-27/14:14:35		Successfully calculated model scores.
+2021-08-27/14:14:35		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:14:35		Successfully trained model.
+2021-08-27/14:14:35		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:14:35		Successfully predicted X_test.
+2021-08-27/14:14:35		Successfully calculated model scores.
+2021-08-27/14:14:35		Successfully appended model name and model scores as a dictionary.
+2021-08-27/14:14:35		Successfully dumped the metrics dictionaries in metrics.json .
+2021-08-27/14:14:35		Entered find_best_params method of HyperparametersTuner class.
+2021-08-27/14:14:35		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:14:35		Successfully trained model.
+2021-08-27/14:14:35		Exception occured in find_best_params method of HyperparametersTuner class. Exception message: __init__() missing 1 required positional argument: 'file_object'
+2021-08-27/14:14:35		Dumping best parameters unsuccessful. Exited find_best_params method of HyperparametersTuner class
+2021-08-27/14:14:35		Exception occured in train_pipeline method of TrainingPipeline class. Exception message: 
+2021-08-27/14:14:35		Model training pipeline unsuccessful. Exited train_pipeline method of TrainingPipeline class
+2021-08-27/14:18:25		Entered train_pipeline method of TrainingPipeline class.
+2021-08-27/14:18:25		Successfully started model training pipeline.
+2021-08-27/14:18:26		Entered fetch_dataset method of DataFetcher class.
+2021-08-27/14:18:26		Dataset downloaded successfully.
+2021-08-27/14:18:26		Entered split_dataset method of DataFetcher class.
+2021-08-27/14:18:26		Successfully read original_dataset.
+2021-08-27/14:18:26		Successfully split train and test data with test_size=0.2.
+2021-08-27/14:18:26		Successfully saved train and test data as train.csv and test.csv respectively.
+2021-08-27/14:18:26		Entered extract_features method of FeatureExtractor class
+2021-08-27/14:18:26		Train and test features read successfully.
+2021-08-27/14:18:26		Train and test features saved as train_features.csv and test_features.csv respectively and successfully.
+2021-08-27/14:18:26		Entered extract_labels method of FeatureExtractor class
+2021-08-27/14:18:26		Train and test features read successfully.
+2021-08-27/14:18:26		Train and test features saved as train_labels.csv and test_labels.csv respectively and successfully.
+2021-08-27/14:18:26		Entered get_num_features method of FeaturePreprocessor class.
+2021-08-27/14:18:26		Successfully got list of numerical features.
+2021-08-27/14:18:26		Entered get_cat_features method of FeaturePreprocessor class.
+2021-08-27/14:18:26		Successfully returned list of categorical features.
+2021-08-27/14:18:26		Entered preprocess_num_features method of FeaturePreprocessor class.
+2021-08-27/14:18:26		Entered preprocess_cat_features method of FeaturePreprocessor class.
+2021-08-27/14:18:26		Successfully preprocessd categorical columns.
+2021-08-27/14:18:26		Entered drop_features method of FeaturePreprocessor class.
+2021-08-27/14:18:26		Entered get_cat_features method of FeaturePreprocessor class.
+2021-08-27/14:18:26		Successfully returned list of categorical features.
+2021-08-27/14:18:26		Successfully dropped features.
+2021-08-27/14:18:26		Entered drop_features method of FeaturePreprocessor class.
+2021-08-27/14:18:26		Entered get_cat_features method of FeaturePreprocessor class.
+2021-08-27/14:18:26		Successfully returned list of categorical features.
+2021-08-27/14:18:26		Successfully dropped features.
+2021-08-27/14:18:26		Entered save_preprocessed_features method of FeaturePreprocessor class.
+2021-08-27/14:18:26		Successfully saved preprocessed features.
+2021-08-27/14:18:26		Entered save_preprocessed_features method of FeaturePreprocessor class.
+2021-08-27/14:18:26		Successfully saved preprocessed features.
+2021-08-27/14:18:26		Entered create_model_metrics method of ModelMetricsGenerator class.
+2021-08-27/14:18:26		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:18:26		Successfully trained model.
+2021-08-27/14:18:26		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:18:26		Successfully predicted X_test.
+2021-08-27/14:18:26		Successfully calculated model scores.
+2021-08-27/14:18:26		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:18:26		Successfully trained model.
+2021-08-27/14:18:26		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:18:26		Successfully predicted X_test.
+2021-08-27/14:18:26		Successfully calculated model scores.
+2021-08-27/14:18:26		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:18:26		Successfully trained model.
+2021-08-27/14:18:26		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:18:26		Successfully predicted X_test.
+2021-08-27/14:18:26		Successfully calculated model scores.
+2021-08-27/14:18:26		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:18:26		Successfully trained model.
+2021-08-27/14:18:26		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:18:26		Successfully predicted X_test.
+2021-08-27/14:18:26		Successfully calculated model scores.
+2021-08-27/14:18:26		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:18:26		Successfully trained model.
+2021-08-27/14:18:26		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:18:26		Successfully predicted X_test.
+2021-08-27/14:18:26		Successfully calculated model scores.
+2021-08-27/14:18:26		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:18:27		Successfully trained model.
+2021-08-27/14:18:27		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:18:27		Successfully predicted X_test.
+2021-08-27/14:18:27		Successfully calculated model scores.
+2021-08-27/14:18:27		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:18:27		Successfully trained model.
+2021-08-27/14:18:27		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:18:27		Successfully predicted X_test.
+2021-08-27/14:18:27		Successfully calculated model scores.
+2021-08-27/14:18:27		Successfully appended model name and model scores as a dictionary.
+2021-08-27/14:18:27		Successfully dumped the metrics dictionaries in metrics.json .
+2021-08-27/14:18:27		Entered find_best_params method of HyperparametersTuner class.
+2021-08-27/14:18:27		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:18:27		Successfully trained model.
+2021-08-27/14:18:27		Exception occured in find_best_params method of HyperparametersTuner class. Exception message: __init__() missing 1 required positional argument: 'file_object'
+2021-08-27/14:18:27		Dumping best parameters unsuccessful. Exited find_best_params method of HyperparametersTuner class
+2021-08-27/14:18:27		Exception occured in train_pipeline method of TrainingPipeline class. Exception message: 
+2021-08-27/14:18:27		Model training pipeline unsuccessful. Exited train_pipeline method of TrainingPipeline class
+2021-08-27/14:21:42		Entered train_pipeline method of TrainingPipeline class.
+2021-08-27/14:21:42		Successfully started model training pipeline.
+2021-08-27/14:21:42		Entered fetch_dataset method of DataFetcher class.
+2021-08-27/14:21:42		Dataset downloaded successfully.
+2021-08-27/14:21:42		Entered split_dataset method of DataFetcher class.
+2021-08-27/14:21:42		Successfully read original_dataset.
+2021-08-27/14:21:42		Successfully split train and test data with test_size=0.2.
+2021-08-27/14:21:42		Successfully saved train and test data as train.csv and test.csv respectively.
+2021-08-27/14:21:42		Entered extract_features method of FeatureExtractor class
+2021-08-27/14:21:42		Train and test features read successfully.
+2021-08-27/14:21:42		Train and test features saved as train_features.csv and test_features.csv respectively and successfully.
+2021-08-27/14:21:42		Entered extract_labels method of FeatureExtractor class
+2021-08-27/14:21:42		Train and test features read successfully.
+2021-08-27/14:21:42		Train and test features saved as train_labels.csv and test_labels.csv respectively and successfully.
+2021-08-27/14:21:42		Entered get_num_features method of FeaturePreprocessor class.
+2021-08-27/14:21:42		Successfully got list of numerical features.
+2021-08-27/14:21:42		Entered get_cat_features method of FeaturePreprocessor class.
+2021-08-27/14:21:42		Successfully returned list of categorical features.
+2021-08-27/14:21:42		Entered preprocess_num_features method of FeaturePreprocessor class.
+2021-08-27/14:21:42		Entered preprocess_cat_features method of FeaturePreprocessor class.
+2021-08-27/14:21:42		Successfully preprocessd categorical columns.
+2021-08-27/14:21:42		Entered drop_features method of FeaturePreprocessor class.
+2021-08-27/14:21:42		Entered get_cat_features method of FeaturePreprocessor class.
+2021-08-27/14:21:42		Successfully returned list of categorical features.
+2021-08-27/14:21:42		Successfully dropped features.
+2021-08-27/14:21:42		Entered drop_features method of FeaturePreprocessor class.
+2021-08-27/14:21:42		Entered get_cat_features method of FeaturePreprocessor class.
+2021-08-27/14:21:42		Successfully returned list of categorical features.
+2021-08-27/14:21:42		Successfully dropped features.
+2021-08-27/14:21:42		Entered save_preprocessed_features method of FeaturePreprocessor class.
+2021-08-27/14:21:44		Successfully saved preprocessed features.
+2021-08-27/14:21:44		Entered save_preprocessed_features method of FeaturePreprocessor class.
+2021-08-27/14:21:44		Successfully saved preprocessed features.
+2021-08-27/14:21:44		Entered create_model_metrics method of ModelMetricsGenerator class.
+2021-08-27/14:21:44		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:21:44		Successfully trained model.
+2021-08-27/14:21:44		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:21:44		Successfully predicted X_test.
+2021-08-27/14:21:44		Successfully calculated model scores.
+2021-08-27/14:21:44		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:21:44		Successfully trained model.
+2021-08-27/14:21:44		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:21:44		Successfully predicted X_test.
+2021-08-27/14:21:44		Successfully calculated model scores.
+2021-08-27/14:21:44		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:21:44		Successfully trained model.
+2021-08-27/14:21:44		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:21:44		Successfully predicted X_test.
+2021-08-27/14:21:44		Successfully calculated model scores.
+2021-08-27/14:21:44		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:21:44		Successfully trained model.
+2021-08-27/14:21:44		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:21:45		Successfully predicted X_test.
+2021-08-27/14:21:45		Successfully calculated model scores.
+2021-08-27/14:21:45		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:21:45		Successfully trained model.
+2021-08-27/14:21:45		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:21:45		Successfully predicted X_test.
+2021-08-27/14:21:45		Successfully calculated model scores.
+2021-08-27/14:21:45		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:21:45		Successfully trained model.
+2021-08-27/14:21:45		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:21:45		Successfully predicted X_test.
+2021-08-27/14:21:45		Successfully calculated model scores.
+2021-08-27/14:21:45		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:21:45		Successfully trained model.
+2021-08-27/14:21:45		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:21:45		Successfully predicted X_test.
+2021-08-27/14:21:45		Successfully calculated model scores.
+2021-08-27/14:21:45		Successfully appended model name and model scores as a dictionary.
+2021-08-27/14:21:45		Successfully dumped the metrics dictionaries in metrics.json .
+2021-08-27/14:21:45		Entered find_best_params method of HyperparametersTuner class.
+2021-08-27/14:21:45		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:21:45		Successfully trained model.
+2021-08-27/14:21:45		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:21:45		Successfully predicted X_test.
+2021-08-27/14:21:45		Successfully calculated model scores.
+2021-08-27/14:21:45		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:21:45		Successfully trained model.
+2021-08-27/14:21:45		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:21:45		Successfully predicted X_test.
+2021-08-27/14:21:45		Successfully calculated model scores.
+2021-08-27/14:21:45		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:21:45		Successfully trained model.
+2021-08-27/14:21:45		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:21:45		Successfully predicted X_test.
+2021-08-27/14:21:45		Successfully calculated model scores.
+2021-08-27/14:21:45		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:21:45		Successfully trained model.
+2021-08-27/14:21:45		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:21:45		Successfully predicted X_test.
+2021-08-27/14:21:45		Successfully calculated model scores.
+2021-08-27/14:21:45		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:21:46		Successfully trained model.
+2021-08-27/14:21:46		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:21:46		Successfully predicted X_test.
+2021-08-27/14:21:46		Successfully calculated model scores.
+2021-08-27/14:21:46		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:21:46		Successfully trained model.
+2021-08-27/14:21:46		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:21:46		Successfully predicted X_test.
+2021-08-27/14:21:46		Successfully calculated model scores.
+2021-08-27/14:21:46		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:21:46		Successfully trained model.
+2021-08-27/14:21:46		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:21:46		Successfully predicted X_test.
+2021-08-27/14:21:46		Successfully calculated model scores.
+2021-08-27/14:21:46		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:21:46		Successfully trained model.
+2021-08-27/14:21:46		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:21:46		Successfully predicted X_test.
+2021-08-27/14:21:46		Successfully calculated model scores.
+2021-08-27/14:21:46		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:21:46		Successfully trained model.
+2021-08-27/14:21:46		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:21:46		Successfully predicted X_test.
+2021-08-27/14:21:46		Successfully calculated model scores.
+2021-08-27/14:21:46		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:21:46		Successfully trained model.
+2021-08-27/14:21:46		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:21:46		Successfully predicted X_test.
+2021-08-27/14:21:46		Successfully calculated model scores.
+2021-08-27/14:21:46		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:21:46		Successfully trained model.
+2021-08-27/14:21:46		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:21:46		Successfully predicted X_test.
+2021-08-27/14:21:46		Successfully calculated model scores.
+2021-08-27/14:21:46		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:21:46		Successfully trained model.
+2021-08-27/14:21:46		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:21:46		Successfully predicted X_test.
+2021-08-27/14:21:46		Successfully calculated model scores.
+2021-08-27/14:21:46		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:21:46		Successfully trained model.
+2021-08-27/14:21:46		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:21:46		Successfully predicted X_test.
+2021-08-27/14:21:46		Successfully calculated model scores.
+2021-08-27/14:21:46		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:21:46		Successfully trained model.
+2021-08-27/14:21:46		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:21:46		Successfully predicted X_test.
+2021-08-27/14:21:46		Successfully calculated model scores.
+2021-08-27/14:21:46		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:21:46		Successfully trained model.
+2021-08-27/14:21:46		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:21:46		Successfully predicted X_test.
+2021-08-27/14:21:46		Successfully calculated model scores.
+2021-08-27/14:21:47		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:21:47		Successfully trained model.
+2021-08-27/14:21:47		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:21:47		Successfully predicted X_test.
+2021-08-27/14:21:47		Successfully calculated model scores.
+2021-08-27/14:21:47		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:21:47		Successfully trained model.
+2021-08-27/14:21:47		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:21:47		Successfully predicted X_test.
+2021-08-27/14:21:47		Successfully calculated model scores.
+2021-08-27/14:21:47		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:21:47		Successfully trained model.
+2021-08-27/14:21:47		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:21:47		Successfully predicted X_test.
+2021-08-27/14:21:47		Successfully calculated model scores.
+2021-08-27/14:21:47		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:21:47		Successfully trained model.
+2021-08-27/14:21:47		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:21:47		Successfully predicted X_test.
+2021-08-27/14:21:47		Successfully calculated model scores.
+2021-08-27/14:21:47		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:21:47		Successfully trained model.
+2021-08-27/14:21:47		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:21:47		Successfully predicted X_test.
+2021-08-27/14:21:47		Successfully calculated model scores.
+2021-08-27/14:21:47		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:21:47		Successfully trained model.
+2021-08-27/14:21:47		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:21:47		Successfully predicted X_test.
+2021-08-27/14:21:47		Successfully calculated model scores.
+2021-08-27/14:21:47		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:21:47		Successfully trained model.
+2021-08-27/14:21:47		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:21:47		Successfully predicted X_test.
+2021-08-27/14:21:47		Successfully calculated model scores.
+2021-08-27/14:21:47		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:21:47		Successfully trained model.
+2021-08-27/14:21:47		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:21:47		Successfully predicted X_test.
+2021-08-27/14:21:47		Successfully calculated model scores.
+2021-08-27/14:21:47		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:21:48		Successfully trained model.
+2021-08-27/14:21:48		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:21:48		Successfully predicted X_test.
+2021-08-27/14:21:48		Successfully calculated model scores.
+2021-08-27/14:21:48		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:21:48		Successfully trained model.
+2021-08-27/14:21:48		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:21:48		Successfully predicted X_test.
+2021-08-27/14:21:48		Successfully calculated model scores.
+2021-08-27/14:21:48		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:21:48		Successfully trained model.
+2021-08-27/14:21:48		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:21:48		Successfully predicted X_test.
+2021-08-27/14:21:48		Successfully calculated model scores.
+2021-08-27/14:21:48		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:21:48		Successfully trained model.
+2021-08-27/14:21:48		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:21:48		Successfully predicted X_test.
+2021-08-27/14:21:48		Successfully calculated model scores.
+2021-08-27/14:21:48		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:21:48		Successfully trained model.
+2021-08-27/14:21:48		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:21:48		Successfully predicted X_test.
+2021-08-27/14:21:48		Successfully calculated model scores.
+2021-08-27/14:21:48		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:21:48		Successfully trained model.
+2021-08-27/14:21:48		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:21:48		Successfully predicted X_test.
+2021-08-27/14:21:48		Successfully calculated model scores.
+2021-08-27/14:21:48		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:21:48		Successfully trained model.
+2021-08-27/14:21:48		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:21:48		Successfully predicted X_test.
+2021-08-27/14:21:48		Successfully calculated model scores.
+2021-08-27/14:21:48		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:21:48		Successfully trained model.
+2021-08-27/14:21:48		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:21:48		Successfully predicted X_test.
+2021-08-27/14:21:48		Successfully calculated model scores.
+2021-08-27/14:21:48		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:21:49		Successfully trained model.
+2021-08-27/14:21:49		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:21:49		Successfully predicted X_test.
+2021-08-27/14:21:49		Successfully calculated model scores.
+2021-08-27/14:21:49		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:21:49		Successfully trained model.
+2021-08-27/14:21:49		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:21:49		Successfully predicted X_test.
+2021-08-27/14:21:49		Successfully calculated model scores.
+2021-08-27/14:21:49		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:21:49		Successfully trained model.
+2021-08-27/14:21:49		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:21:49		Successfully predicted X_test.
+2021-08-27/14:21:49		Successfully calculated model scores.
+2021-08-27/14:21:49		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:21:49		Successfully trained model.
+2021-08-27/14:21:49		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:21:49		Successfully predicted X_test.
+2021-08-27/14:21:49		Successfully calculated model scores.
+2021-08-27/14:21:49		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:21:49		Successfully trained model.
+2021-08-27/14:21:49		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:21:49		Successfully predicted X_test.
+2021-08-27/14:21:49		Successfully calculated model scores.
+2021-08-27/14:21:49		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:21:49		Successfully trained model.
+2021-08-27/14:21:49		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:21:49		Successfully predicted X_test.
+2021-08-27/14:21:49		Successfully calculated model scores.
+2021-08-27/14:21:49		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:21:49		Successfully trained model.
+2021-08-27/14:21:49		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:21:49		Successfully predicted X_test.
+2021-08-27/14:21:49		Successfully calculated model scores.
+2021-08-27/14:21:49		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:21:49		Successfully trained model.
+2021-08-27/14:21:49		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:21:49		Successfully predicted X_test.
+2021-08-27/14:21:49		Successfully calculated model scores.
+2021-08-27/14:21:49		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:21:50		Successfully trained model.
+2021-08-27/14:21:50		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:21:50		Successfully predicted X_test.
+2021-08-27/14:21:50		Successfully calculated model scores.
+2021-08-27/14:21:50		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:21:50		Successfully trained model.
+2021-08-27/14:21:50		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:21:50		Successfully predicted X_test.
+2021-08-27/14:21:50		Successfully calculated model scores.
+2021-08-27/14:21:50		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:21:50		Successfully trained model.
+2021-08-27/14:21:50		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:21:50		Successfully predicted X_test.
+2021-08-27/14:21:50		Successfully calculated model scores.
+2021-08-27/14:21:50		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:21:50		Successfully trained model.
+2021-08-27/14:21:50		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:21:50		Successfully predicted X_test.
+2021-08-27/14:21:50		Successfully calculated model scores.
+2021-08-27/14:21:50		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:21:50		Successfully trained model.
+2021-08-27/14:21:50		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:21:50		Successfully predicted X_test.
+2021-08-27/14:21:50		Successfully calculated model scores.
+2021-08-27/14:21:50		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:21:50		Successfully trained model.
+2021-08-27/14:21:50		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:21:50		Successfully predicted X_test.
+2021-08-27/14:21:50		Successfully calculated model scores.
+2021-08-27/14:21:50		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:21:50		Successfully trained model.
+2021-08-27/14:21:50		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:21:50		Successfully predicted X_test.
+2021-08-27/14:21:50		Successfully calculated model scores.
+2021-08-27/14:21:50		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:21:50		Successfully trained model.
+2021-08-27/14:21:50		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:21:50		Successfully predicted X_test.
+2021-08-27/14:21:50		Successfully calculated model scores.
+2021-08-27/14:21:51		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:21:51		Successfully trained model.
+2021-08-27/14:21:51		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:21:51		Successfully predicted X_test.
+2021-08-27/14:21:51		Successfully calculated model scores.
+2021-08-27/14:21:51		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:21:51		Successfully trained model.
+2021-08-27/14:21:51		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:21:51		Successfully predicted X_test.
+2021-08-27/14:21:51		Successfully calculated model scores.
+2021-08-27/14:21:51		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:21:51		Successfully trained model.
+2021-08-27/14:21:51		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:21:51		Successfully predicted X_test.
+2021-08-27/14:21:51		Successfully calculated model scores.
+2021-08-27/14:21:51		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:21:51		Successfully trained model.
+2021-08-27/14:21:51		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:21:51		Successfully predicted X_test.
+2021-08-27/14:21:51		Successfully calculated model scores.
+2021-08-27/14:21:51		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:21:51		Successfully trained model.
+2021-08-27/14:21:51		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:21:51		Successfully predicted X_test.
+2021-08-27/14:21:51		Successfully calculated model scores.
+2021-08-27/14:21:51		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:21:51		Successfully trained model.
+2021-08-27/14:21:51		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:21:51		Successfully predicted X_test.
+2021-08-27/14:21:51		Successfully calculated model scores.
+2021-08-27/14:21:51		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:21:51		Successfully trained model.
+2021-08-27/14:21:51		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:21:51		Successfully predicted X_test.
+2021-08-27/14:21:51		Successfully calculated model scores.
+2021-08-27/14:21:51		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:21:52		Successfully trained model.
+2021-08-27/14:21:52		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:21:52		Successfully predicted X_test.
+2021-08-27/14:21:52		Successfully calculated model scores.
+2021-08-27/14:21:52		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:21:52		Successfully trained model.
+2021-08-27/14:21:52		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:21:52		Successfully predicted X_test.
+2021-08-27/14:21:52		Successfully calculated model scores.
+2021-08-27/14:21:52		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:21:52		Successfully trained model.
+2021-08-27/14:21:52		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:21:52		Successfully predicted X_test.
+2021-08-27/14:21:52		Successfully calculated model scores.
+2021-08-27/14:21:52		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:21:52		Successfully trained model.
+2021-08-27/14:21:52		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:21:52		Successfully predicted X_test.
+2021-08-27/14:21:52		Successfully calculated model scores.
+2021-08-27/14:21:52		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:21:52		Successfully trained model.
+2021-08-27/14:21:52		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:21:52		Successfully predicted X_test.
+2021-08-27/14:21:52		Successfully calculated model scores.
+2021-08-27/14:21:52		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:21:52		Successfully trained model.
+2021-08-27/14:21:52		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:21:52		Successfully predicted X_test.
+2021-08-27/14:21:52		Successfully calculated model scores.
+2021-08-27/14:21:52		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:21:52		Successfully trained model.
+2021-08-27/14:21:52		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:21:52		Successfully predicted X_test.
+2021-08-27/14:21:52		Successfully calculated model scores.
+2021-08-27/14:21:52		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:21:52		Successfully trained model.
+2021-08-27/14:21:52		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:21:52		Successfully predicted X_test.
+2021-08-27/14:21:52		Successfully calculated model scores.
+2021-08-27/14:21:53		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:21:53		Successfully trained model.
+2021-08-27/14:21:53		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:21:53		Successfully predicted X_test.
+2021-08-27/14:21:53		Successfully calculated model scores.
+2021-08-27/14:21:53		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:21:53		Successfully trained model.
+2021-08-27/14:21:53		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:21:53		Successfully predicted X_test.
+2021-08-27/14:21:53		Successfully calculated model scores.
+2021-08-27/14:21:53		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:21:53		Successfully trained model.
+2021-08-27/14:21:53		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:21:53		Successfully predicted X_test.
+2021-08-27/14:21:53		Successfully calculated model scores.
+2021-08-27/14:21:53		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:21:53		Successfully trained model.
+2021-08-27/14:21:53		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:21:53		Successfully predicted X_test.
+2021-08-27/14:21:53		Successfully calculated model scores.
+2021-08-27/14:21:53		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:21:53		Successfully trained model.
+2021-08-27/14:21:53		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:21:53		Successfully predicted X_test.
+2021-08-27/14:21:53		Successfully calculated model scores.
+2021-08-27/14:21:53		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:21:53		Successfully trained model.
+2021-08-27/14:21:53		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:21:53		Successfully predicted X_test.
+2021-08-27/14:21:53		Successfully calculated model scores.
+2021-08-27/14:21:53		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:21:53		Successfully trained model.
+2021-08-27/14:21:53		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:21:53		Successfully predicted X_test.
+2021-08-27/14:21:53		Successfully calculated model scores.
+2021-08-27/14:21:53		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:21:54		Successfully trained model.
+2021-08-27/14:21:54		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:21:54		Successfully predicted X_test.
+2021-08-27/14:21:54		Successfully calculated model scores.
+2021-08-27/14:21:54		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:21:54		Successfully trained model.
+2021-08-27/14:21:54		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:21:54		Successfully predicted X_test.
+2021-08-27/14:21:54		Successfully calculated model scores.
+2021-08-27/14:21:54		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:21:54		Successfully trained model.
+2021-08-27/14:21:54		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:21:54		Successfully predicted X_test.
+2021-08-27/14:21:54		Successfully calculated model scores.
+2021-08-27/14:21:54		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:21:54		Successfully trained model.
+2021-08-27/14:21:54		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:21:54		Successfully predicted X_test.
+2021-08-27/14:21:54		Successfully calculated model scores.
+2021-08-27/14:21:54		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:21:54		Successfully trained model.
+2021-08-27/14:21:54		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:21:54		Successfully predicted X_test.
+2021-08-27/14:21:54		Successfully calculated model scores.
+2021-08-27/14:21:54		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:21:54		Successfully trained model.
+2021-08-27/14:21:54		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:21:54		Successfully predicted X_test.
+2021-08-27/14:21:54		Successfully calculated model scores.
+2021-08-27/14:21:54		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:21:54		Successfully trained model.
+2021-08-27/14:21:54		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:21:54		Successfully predicted X_test.
+2021-08-27/14:21:54		Successfully calculated model scores.
+2021-08-27/14:21:54		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:21:54		Successfully trained model.
+2021-08-27/14:21:54		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:21:54		Successfully predicted X_test.
+2021-08-27/14:21:54		Successfully calculated model scores.
+2021-08-27/14:21:55		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:21:55		Successfully trained model.
+2021-08-27/14:21:55		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:21:55		Successfully predicted X_test.
+2021-08-27/14:21:55		Successfully calculated model scores.
+2021-08-27/14:21:55		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:21:55		Successfully trained model.
+2021-08-27/14:21:55		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:21:55		Successfully predicted X_test.
+2021-08-27/14:21:55		Successfully calculated model scores.
+2021-08-27/14:21:55		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:21:55		Successfully trained model.
+2021-08-27/14:21:55		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:21:55		Successfully predicted X_test.
+2021-08-27/14:21:55		Successfully calculated model scores.
+2021-08-27/14:21:55		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:21:55		Successfully trained model.
+2021-08-27/14:21:55		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:21:55		Successfully predicted X_test.
+2021-08-27/14:21:55		Successfully calculated model scores.
+2021-08-27/14:21:55		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:21:55		Successfully trained model.
+2021-08-27/14:21:55		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:21:55		Successfully predicted X_test.
+2021-08-27/14:21:55		Successfully calculated model scores.
+2021-08-27/14:21:55		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:21:55		Successfully trained model.
+2021-08-27/14:21:55		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:21:55		Successfully predicted X_test.
+2021-08-27/14:21:55		Successfully calculated model scores.
+2021-08-27/14:21:55		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:21:55		Successfully trained model.
+2021-08-27/14:21:55		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:21:55		Successfully predicted X_test.
+2021-08-27/14:21:55		Successfully calculated model scores.
+2021-08-27/14:21:55		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:21:56		Successfully trained model.
+2021-08-27/14:21:56		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:21:56		Successfully predicted X_test.
+2021-08-27/14:21:56		Successfully calculated model scores.
+2021-08-27/14:21:56		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:21:56		Successfully trained model.
+2021-08-27/14:21:56		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:21:56		Successfully predicted X_test.
+2021-08-27/14:21:56		Successfully calculated model scores.
+2021-08-27/14:21:56		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:21:56		Successfully trained model.
+2021-08-27/14:21:56		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:21:56		Successfully predicted X_test.
+2021-08-27/14:21:56		Successfully calculated model scores.
+2021-08-27/14:21:56		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:21:56		Successfully trained model.
+2021-08-27/14:21:56		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:21:56		Successfully predicted X_test.
+2021-08-27/14:21:56		Successfully calculated model scores.
+2021-08-27/14:21:56		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:21:56		Successfully trained model.
+2021-08-27/14:21:56		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:21:56		Successfully predicted X_test.
+2021-08-27/14:21:56		Successfully calculated model scores.
+2021-08-27/14:21:56		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:21:56		Successfully trained model.
+2021-08-27/14:21:56		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:21:56		Successfully predicted X_test.
+2021-08-27/14:21:56		Successfully calculated model scores.
+2021-08-27/14:21:56		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:21:56		Successfully trained model.
+2021-08-27/14:21:56		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:21:56		Successfully predicted X_test.
+2021-08-27/14:21:56		Successfully calculated model scores.
+2021-08-27/14:21:56		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:21:56		Successfully trained model.
+2021-08-27/14:21:56		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:21:56		Successfully predicted X_test.
+2021-08-27/14:21:56		Successfully calculated model scores.
+2021-08-27/14:21:57		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:21:57		Successfully trained model.
+2021-08-27/14:21:57		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:21:57		Successfully predicted X_test.
+2021-08-27/14:21:57		Successfully calculated model scores.
+2021-08-27/14:21:57		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:21:57		Successfully trained model.
+2021-08-27/14:21:57		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:21:57		Successfully predicted X_test.
+2021-08-27/14:21:57		Successfully calculated model scores.
+2021-08-27/14:21:57		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:21:57		Successfully trained model.
+2021-08-27/14:21:57		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:21:57		Successfully predicted X_test.
+2021-08-27/14:21:57		Successfully calculated model scores.
+2021-08-27/14:21:57		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:21:57		Successfully trained model.
+2021-08-27/14:21:57		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:21:57		Successfully predicted X_test.
+2021-08-27/14:21:57		Successfully calculated model scores.
+2021-08-27/14:21:57		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:21:57		Successfully trained model.
+2021-08-27/14:21:57		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:21:57		Successfully predicted X_test.
+2021-08-27/14:21:57		Successfully calculated model scores.
+2021-08-27/14:21:57		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:21:57		Successfully trained model.
+2021-08-27/14:21:57		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:21:57		Successfully predicted X_test.
+2021-08-27/14:21:57		Successfully calculated model scores.
+2021-08-27/14:21:57		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:21:57		Successfully trained model.
+2021-08-27/14:21:57		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:21:57		Successfully predicted X_test.
+2021-08-27/14:21:57		Successfully calculated model scores.
+2021-08-27/14:21:58		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:21:58		Successfully trained model.
+2021-08-27/14:21:58		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:21:58		Successfully predicted X_test.
+2021-08-27/14:21:58		Successfully calculated model scores.
+2021-08-27/14:21:58		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:21:58		Successfully trained model.
+2021-08-27/14:21:58		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:21:58		Successfully predicted X_test.
+2021-08-27/14:21:58		Successfully calculated model scores.
+2021-08-27/14:21:58		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:21:58		Successfully trained model.
+2021-08-27/14:21:58		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:21:58		Successfully predicted X_test.
+2021-08-27/14:21:58		Successfully calculated model scores.
+2021-08-27/14:21:58		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:21:58		Successfully trained model.
+2021-08-27/14:21:58		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:21:58		Successfully predicted X_test.
+2021-08-27/14:21:58		Successfully calculated model scores.
+2021-08-27/14:21:58		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:21:58		Successfully trained model.
+2021-08-27/14:21:58		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:21:58		Successfully predicted X_test.
+2021-08-27/14:21:58		Successfully calculated model scores.
+2021-08-27/14:21:58		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:21:58		Successfully trained model.
+2021-08-27/14:21:58		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:21:58		Successfully predicted X_test.
+2021-08-27/14:21:58		Successfully calculated model scores.
+2021-08-27/14:21:58		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:21:58		Successfully trained model.
+2021-08-27/14:21:58		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:21:58		Successfully predicted X_test.
+2021-08-27/14:21:58		Successfully calculated model scores.
+2021-08-27/14:21:59		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:21:59		Successfully trained model.
+2021-08-27/14:21:59		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:21:59		Successfully predicted X_test.
+2021-08-27/14:21:59		Successfully calculated model scores.
+2021-08-27/14:21:59		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:21:59		Successfully trained model.
+2021-08-27/14:21:59		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:21:59		Successfully predicted X_test.
+2021-08-27/14:21:59		Successfully calculated model scores.
+2021-08-27/14:21:59		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:21:59		Successfully trained model.
+2021-08-27/14:21:59		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:21:59		Successfully predicted X_test.
+2021-08-27/14:21:59		Successfully calculated model scores.
+2021-08-27/14:21:59		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:21:59		Successfully trained model.
+2021-08-27/14:21:59		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:21:59		Successfully predicted X_test.
+2021-08-27/14:21:59		Successfully calculated model scores.
+2021-08-27/14:21:59		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:21:59		Successfully trained model.
+2021-08-27/14:21:59		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:21:59		Successfully predicted X_test.
+2021-08-27/14:21:59		Successfully calculated model scores.
+2021-08-27/14:21:59		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:21:59		Successfully trained model.
+2021-08-27/14:21:59		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:21:59		Successfully predicted X_test.
+2021-08-27/14:21:59		Successfully calculated model scores.
+2021-08-27/14:21:59		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:21:59		Successfully trained model.
+2021-08-27/14:21:59		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:21:59		Successfully predicted X_test.
+2021-08-27/14:21:59		Successfully calculated model scores.
+2021-08-27/14:22:00		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:22:00		Successfully trained model.
+2021-08-27/14:22:00		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:22:00		Successfully predicted X_test.
+2021-08-27/14:22:00		Successfully calculated model scores.
+2021-08-27/14:22:00		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:22:00		Successfully trained model.
+2021-08-27/14:22:00		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:22:00		Successfully predicted X_test.
+2021-08-27/14:22:00		Successfully calculated model scores.
+2021-08-27/14:22:00		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:22:00		Successfully trained model.
+2021-08-27/14:22:00		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:22:00		Successfully predicted X_test.
+2021-08-27/14:22:00		Successfully calculated model scores.
+2021-08-27/14:22:00		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:22:00		Successfully trained model.
+2021-08-27/14:22:00		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:22:00		Successfully predicted X_test.
+2021-08-27/14:22:00		Successfully calculated model scores.
+2021-08-27/14:22:00		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:22:00		Successfully trained model.
+2021-08-27/14:22:00		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:22:00		Successfully predicted X_test.
+2021-08-27/14:22:00		Successfully calculated model scores.
+2021-08-27/14:22:00		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:22:00		Successfully trained model.
+2021-08-27/14:22:00		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:22:00		Successfully predicted X_test.
+2021-08-27/14:22:00		Successfully calculated model scores.
+2021-08-27/14:22:00		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:22:00		Successfully trained model.
+2021-08-27/14:22:00		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:22:00		Successfully predicted X_test.
+2021-08-27/14:22:00		Successfully calculated model scores.
+2021-08-27/14:22:01		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:22:01		Successfully trained model.
+2021-08-27/14:22:01		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:22:01		Successfully predicted X_test.
+2021-08-27/14:22:01		Successfully calculated model scores.
+2021-08-27/14:22:01		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:22:01		Successfully trained model.
+2021-08-27/14:22:01		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:22:01		Successfully predicted X_test.
+2021-08-27/14:22:01		Successfully calculated model scores.
+2021-08-27/14:22:01		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:22:01		Successfully trained model.
+2021-08-27/14:22:01		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:22:01		Successfully predicted X_test.
+2021-08-27/14:22:01		Successfully calculated model scores.
+2021-08-27/14:22:01		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:22:01		Successfully trained model.
+2021-08-27/14:22:01		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:22:01		Successfully predicted X_test.
+2021-08-27/14:22:01		Successfully calculated model scores.
+2021-08-27/14:22:01		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:22:01		Successfully trained model.
+2021-08-27/14:22:01		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:22:01		Successfully predicted X_test.
+2021-08-27/14:22:01		Successfully calculated model scores.
+2021-08-27/14:22:01		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:22:01		Successfully trained model.
+2021-08-27/14:22:01		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:22:01		Successfully predicted X_test.
+2021-08-27/14:22:01		Successfully calculated model scores.
+2021-08-27/14:22:01		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:22:01		Successfully trained model.
+2021-08-27/14:22:01		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:22:01		Successfully predicted X_test.
+2021-08-27/14:22:01		Successfully calculated model scores.
+2021-08-27/14:22:01		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:22:02		Successfully trained model.
+2021-08-27/14:22:02		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:22:02		Successfully predicted X_test.
+2021-08-27/14:22:02		Successfully calculated model scores.
+2021-08-27/14:22:02		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:22:02		Successfully trained model.
+2021-08-27/14:22:02		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:22:02		Successfully predicted X_test.
+2021-08-27/14:22:02		Successfully calculated model scores.
+2021-08-27/14:22:02		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:22:02		Successfully trained model.
+2021-08-27/14:22:02		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:22:02		Successfully predicted X_test.
+2021-08-27/14:22:02		Successfully calculated model scores.
+2021-08-27/14:22:02		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:22:02		Successfully trained model.
+2021-08-27/14:22:02		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:22:02		Successfully predicted X_test.
+2021-08-27/14:22:02		Successfully calculated model scores.
+2021-08-27/14:22:02		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:22:02		Successfully trained model.
+2021-08-27/14:22:02		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:22:02		Successfully predicted X_test.
+2021-08-27/14:22:02		Successfully calculated model scores.
+2021-08-27/14:22:02		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:22:02		Successfully trained model.
+2021-08-27/14:22:02		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:22:02		Successfully predicted X_test.
+2021-08-27/14:22:02		Successfully calculated model scores.
+2021-08-27/14:22:02		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:22:02		Successfully trained model.
+2021-08-27/14:22:02		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:22:02		Successfully predicted X_test.
+2021-08-27/14:22:02		Successfully calculated model scores.
+2021-08-27/14:22:02		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:22:03		Successfully trained model.
+2021-08-27/14:22:03		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:22:03		Successfully predicted X_test.
+2021-08-27/14:22:03		Successfully calculated model scores.
+2021-08-27/14:22:03		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:22:03		Successfully trained model.
+2021-08-27/14:22:03		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:22:03		Successfully predicted X_test.
+2021-08-27/14:22:03		Successfully calculated model scores.
+2021-08-27/14:22:03		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:22:03		Successfully trained model.
+2021-08-27/14:22:03		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:22:03		Successfully predicted X_test.
+2021-08-27/14:22:03		Successfully calculated model scores.
+2021-08-27/14:22:03		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:22:03		Successfully trained model.
+2021-08-27/14:22:03		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:22:03		Successfully predicted X_test.
+2021-08-27/14:22:03		Successfully calculated model scores.
+2021-08-27/14:22:03		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:22:03		Successfully trained model.
+2021-08-27/14:22:03		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:22:03		Successfully predicted X_test.
+2021-08-27/14:22:03		Successfully calculated model scores.
+2021-08-27/14:22:03		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:22:03		Successfully trained model.
+2021-08-27/14:22:03		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:22:03		Successfully predicted X_test.
+2021-08-27/14:22:03		Successfully calculated model scores.
+2021-08-27/14:22:03		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:22:03		Successfully trained model.
+2021-08-27/14:22:03		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:22:03		Successfully predicted X_test.
+2021-08-27/14:22:03		Successfully calculated model scores.
+2021-08-27/14:22:04		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:22:04		Successfully trained model.
+2021-08-27/14:22:04		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:22:04		Successfully predicted X_test.
+2021-08-27/14:22:04		Successfully calculated model scores.
+2021-08-27/14:22:04		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:22:04		Successfully trained model.
+2021-08-27/14:22:04		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:22:04		Successfully predicted X_test.
+2021-08-27/14:22:04		Successfully calculated model scores.
+2021-08-27/14:22:04		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:22:04		Successfully trained model.
+2021-08-27/14:22:04		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:22:04		Successfully predicted X_test.
+2021-08-27/14:22:04		Successfully calculated model scores.
+2021-08-27/14:22:04		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:22:04		Successfully trained model.
+2021-08-27/14:22:04		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:22:04		Successfully predicted X_test.
+2021-08-27/14:22:04		Successfully calculated model scores.
+2021-08-27/14:22:04		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:22:04		Successfully trained model.
+2021-08-27/14:22:04		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:22:04		Successfully predicted X_test.
+2021-08-27/14:22:04		Successfully calculated model scores.
+2021-08-27/14:22:04		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:22:04		Successfully trained model.
+2021-08-27/14:22:04		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:22:04		Successfully predicted X_test.
+2021-08-27/14:22:04		Successfully calculated model scores.
+2021-08-27/14:22:04		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:22:04		Successfully trained model.
+2021-08-27/14:22:04		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:22:04		Successfully predicted X_test.
+2021-08-27/14:22:04		Successfully calculated model scores.
+2021-08-27/14:22:05		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:22:05		Successfully trained model.
+2021-08-27/14:22:05		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:22:05		Successfully predicted X_test.
+2021-08-27/14:22:05		Successfully calculated model scores.
+2021-08-27/14:22:05		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:22:05		Successfully trained model.
+2021-08-27/14:22:05		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:22:05		Successfully predicted X_test.
+2021-08-27/14:22:05		Successfully calculated model scores.
+2021-08-27/14:22:05		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:22:05		Successfully trained model.
+2021-08-27/14:22:05		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:22:05		Successfully predicted X_test.
+2021-08-27/14:22:05		Successfully calculated model scores.
+2021-08-27/14:22:05		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:22:05		Successfully trained model.
+2021-08-27/14:22:05		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:22:05		Successfully predicted X_test.
+2021-08-27/14:22:05		Successfully calculated model scores.
+2021-08-27/14:22:05		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:22:05		Successfully trained model.
+2021-08-27/14:22:05		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:22:05		Successfully predicted X_test.
+2021-08-27/14:22:05		Successfully calculated model scores.
+2021-08-27/14:22:05		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:22:05		Successfully trained model.
+2021-08-27/14:22:05		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:22:05		Successfully predicted X_test.
+2021-08-27/14:22:05		Successfully calculated model scores.
+2021-08-27/14:22:05		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:22:05		Successfully trained model.
+2021-08-27/14:22:05		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:22:05		Successfully predicted X_test.
+2021-08-27/14:22:05		Successfully calculated model scores.
+2021-08-27/14:22:06		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:22:06		Successfully trained model.
+2021-08-27/14:22:06		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:22:06		Successfully predicted X_test.
+2021-08-27/14:22:06		Successfully calculated model scores.
+2021-08-27/14:22:06		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:22:06		Successfully trained model.
+2021-08-27/14:22:06		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:22:06		Successfully predicted X_test.
+2021-08-27/14:22:06		Successfully calculated model scores.
+2021-08-27/14:22:06		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:22:06		Successfully trained model.
+2021-08-27/14:22:06		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:22:06		Successfully predicted X_test.
+2021-08-27/14:22:06		Successfully calculated model scores.
+2021-08-27/14:22:06		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:22:06		Successfully trained model.
+2021-08-27/14:22:06		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:22:06		Successfully predicted X_test.
+2021-08-27/14:22:06		Successfully calculated model scores.
+2021-08-27/14:22:06		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:22:06		Successfully trained model.
+2021-08-27/14:22:06		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:22:06		Successfully predicted X_test.
+2021-08-27/14:22:06		Successfully calculated model scores.
+2021-08-27/14:22:06		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:22:06		Successfully trained model.
+2021-08-27/14:22:06		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:22:06		Successfully predicted X_test.
+2021-08-27/14:22:06		Successfully calculated model scores.
+2021-08-27/14:22:06		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:22:06		Successfully trained model.
+2021-08-27/14:22:06		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:22:06		Successfully predicted X_test.
+2021-08-27/14:22:06		Successfully calculated model scores.
+2021-08-27/14:22:07		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:22:07		Successfully trained model.
+2021-08-27/14:22:07		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:22:07		Successfully predicted X_test.
+2021-08-27/14:22:07		Successfully calculated model scores.
+2021-08-27/14:22:07		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:22:07		Successfully trained model.
+2021-08-27/14:22:07		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:22:07		Successfully predicted X_test.
+2021-08-27/14:22:07		Successfully calculated model scores.
+2021-08-27/14:22:07		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:22:07		Successfully trained model.
+2021-08-27/14:22:07		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:22:07		Successfully predicted X_test.
+2021-08-27/14:22:07		Successfully calculated model scores.
+2021-08-27/14:22:07		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:22:07		Successfully trained model.
+2021-08-27/14:22:07		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:22:07		Successfully predicted X_test.
+2021-08-27/14:22:07		Successfully calculated model scores.
+2021-08-27/14:22:07		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:22:07		Successfully trained model.
+2021-08-27/14:22:07		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:22:07		Successfully predicted X_test.
+2021-08-27/14:22:07		Successfully calculated model scores.
+2021-08-27/14:22:07		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:22:07		Successfully trained model.
+2021-08-27/14:22:07		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:22:07		Successfully predicted X_test.
+2021-08-27/14:22:07		Successfully calculated model scores.
+2021-08-27/14:22:07		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:22:08		Successfully trained model.
+2021-08-27/14:22:08		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:22:08		Successfully predicted X_test.
+2021-08-27/14:22:08		Successfully calculated model scores.
+2021-08-27/14:22:08		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:22:08		Successfully trained model.
+2021-08-27/14:22:08		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:22:08		Successfully predicted X_test.
+2021-08-27/14:22:08		Successfully calculated model scores.
+2021-08-27/14:22:08		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:22:08		Successfully trained model.
+2021-08-27/14:22:08		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:22:08		Successfully predicted X_test.
+2021-08-27/14:22:08		Successfully calculated model scores.
+2021-08-27/14:22:08		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:22:08		Successfully trained model.
+2021-08-27/14:22:08		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:22:08		Successfully predicted X_test.
+2021-08-27/14:22:08		Successfully calculated model scores.
+2021-08-27/14:22:08		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:22:08		Successfully trained model.
+2021-08-27/14:22:08		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:22:08		Successfully predicted X_test.
+2021-08-27/14:22:08		Successfully calculated model scores.
+2021-08-27/14:22:08		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:22:08		Successfully trained model.
+2021-08-27/14:22:08		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:22:08		Successfully predicted X_test.
+2021-08-27/14:22:08		Successfully calculated model scores.
+2021-08-27/14:22:08		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:22:08		Successfully trained model.
+2021-08-27/14:22:08		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:22:08		Successfully predicted X_test.
+2021-08-27/14:22:08		Successfully calculated model scores.
+2021-08-27/14:22:09		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:22:09		Successfully trained model.
+2021-08-27/14:22:09		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:22:09		Successfully predicted X_test.
+2021-08-27/14:22:09		Successfully calculated model scores.
+2021-08-27/14:22:09		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:22:09		Successfully trained model.
+2021-08-27/14:22:09		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:22:09		Successfully predicted X_test.
+2021-08-27/14:22:09		Successfully calculated model scores.
+2021-08-27/14:22:09		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:22:09		Successfully trained model.
+2021-08-27/14:22:09		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:22:09		Successfully predicted X_test.
+2021-08-27/14:22:09		Successfully calculated model scores.
+2021-08-27/14:22:09		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:22:09		Successfully trained model.
+2021-08-27/14:22:09		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:22:09		Successfully predicted X_test.
+2021-08-27/14:22:09		Successfully calculated model scores.
+2021-08-27/14:22:09		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:22:09		Successfully trained model.
+2021-08-27/14:22:09		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:22:09		Successfully predicted X_test.
+2021-08-27/14:22:09		Successfully calculated model scores.
+2021-08-27/14:22:09		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:22:09		Successfully trained model.
+2021-08-27/14:22:09		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:22:09		Successfully predicted X_test.
+2021-08-27/14:22:09		Successfully calculated model scores.
+2021-08-27/14:22:09		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:22:09		Successfully trained model.
+2021-08-27/14:22:09		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:22:09		Successfully predicted X_test.
+2021-08-27/14:22:09		Successfully calculated model scores.
+2021-08-27/14:22:10		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:22:10		Successfully trained model.
+2021-08-27/14:22:10		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:22:10		Successfully predicted X_test.
+2021-08-27/14:22:10		Successfully calculated model scores.
+2021-08-27/14:22:10		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:22:10		Successfully trained model.
+2021-08-27/14:22:10		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:22:10		Successfully predicted X_test.
+2021-08-27/14:22:10		Successfully calculated model scores.
+2021-08-27/14:22:10		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:22:10		Successfully trained model.
+2021-08-27/14:22:10		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:22:10		Successfully predicted X_test.
+2021-08-27/14:22:10		Successfully calculated model scores.
+2021-08-27/14:22:10		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:22:10		Successfully trained model.
+2021-08-27/14:22:10		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:22:10		Successfully predicted X_test.
+2021-08-27/14:22:10		Successfully calculated model scores.
+2021-08-27/14:22:10		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:22:10		Successfully trained model.
+2021-08-27/14:22:10		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:22:10		Successfully predicted X_test.
+2021-08-27/14:22:10		Successfully calculated model scores.
+2021-08-27/14:22:10		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:22:10		Successfully trained model.
+2021-08-27/14:22:10		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:22:10		Successfully predicted X_test.
+2021-08-27/14:22:10		Successfully calculated model scores.
+2021-08-27/14:22:10		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:22:11		Successfully trained model.
+2021-08-27/14:22:11		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:22:11		Successfully predicted X_test.
+2021-08-27/14:22:11		Successfully calculated model scores.
+2021-08-27/14:22:11		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:22:11		Successfully trained model.
+2021-08-27/14:22:11		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:22:11		Successfully predicted X_test.
+2021-08-27/14:22:11		Successfully calculated model scores.
+2021-08-27/14:22:11		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:22:11		Successfully trained model.
+2021-08-27/14:22:11		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:22:11		Successfully predicted X_test.
+2021-08-27/14:22:11		Successfully calculated model scores.
+2021-08-27/14:22:11		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:22:11		Successfully trained model.
+2021-08-27/14:22:11		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:22:11		Successfully predicted X_test.
+2021-08-27/14:22:11		Successfully calculated model scores.
+2021-08-27/14:22:11		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:22:11		Successfully trained model.
+2021-08-27/14:22:11		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:22:11		Successfully predicted X_test.
+2021-08-27/14:22:11		Successfully calculated model scores.
+2021-08-27/14:22:11		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:22:11		Successfully trained model.
+2021-08-27/14:22:11		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:22:11		Successfully predicted X_test.
+2021-08-27/14:22:11		Successfully calculated model scores.
+2021-08-27/14:22:11		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:22:11		Successfully trained model.
+2021-08-27/14:22:11		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:22:11		Successfully predicted X_test.
+2021-08-27/14:22:11		Successfully calculated model scores.
+2021-08-27/14:22:12		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:22:12		Successfully trained model.
+2021-08-27/14:22:12		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:22:12		Successfully predicted X_test.
+2021-08-27/14:22:12		Successfully calculated model scores.
+2021-08-27/14:22:12		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:22:12		Successfully trained model.
+2021-08-27/14:22:12		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:22:12		Successfully predicted X_test.
+2021-08-27/14:22:12		Successfully calculated model scores.
+2021-08-27/14:22:12		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:22:12		Successfully trained model.
+2021-08-27/14:22:12		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:22:12		Successfully predicted X_test.
+2021-08-27/14:22:12		Successfully calculated model scores.
+2021-08-27/14:22:12		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:22:12		Successfully trained model.
+2021-08-27/14:22:12		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:22:12		Successfully predicted X_test.
+2021-08-27/14:22:12		Successfully calculated model scores.
+2021-08-27/14:22:12		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:22:12		Successfully trained model.
+2021-08-27/14:22:12		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:22:12		Successfully predicted X_test.
+2021-08-27/14:22:12		Successfully calculated model scores.
+2021-08-27/14:22:12		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:22:12		Successfully trained model.
+2021-08-27/14:22:12		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:22:12		Successfully predicted X_test.
+2021-08-27/14:22:12		Successfully calculated model scores.
+2021-08-27/14:22:12		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:22:12		Successfully trained model.
+2021-08-27/14:22:12		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:22:12		Successfully predicted X_test.
+2021-08-27/14:22:12		Successfully calculated model scores.
+2021-08-27/14:22:13		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:22:13		Successfully trained model.
+2021-08-27/14:22:13		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:22:13		Successfully predicted X_test.
+2021-08-27/14:22:13		Successfully calculated model scores.
+2021-08-27/14:22:13		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:22:13		Successfully trained model.
+2021-08-27/14:22:13		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:22:13		Successfully predicted X_test.
+2021-08-27/14:22:13		Successfully calculated model scores.
+2021-08-27/14:22:13		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:22:13		Successfully trained model.
+2021-08-27/14:22:13		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:22:13		Successfully predicted X_test.
+2021-08-27/14:22:13		Successfully calculated model scores.
+2021-08-27/14:22:13		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:22:13		Successfully trained model.
+2021-08-27/14:22:13		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:22:13		Successfully predicted X_test.
+2021-08-27/14:22:13		Successfully calculated model scores.
+2021-08-27/14:22:13		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:22:13		Successfully trained model.
+2021-08-27/14:22:13		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:22:13		Successfully predicted X_test.
+2021-08-27/14:22:13		Successfully calculated model scores.
+2021-08-27/14:22:13		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:22:13		Successfully trained model.
+2021-08-27/14:22:13		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:22:13		Successfully predicted X_test.
+2021-08-27/14:22:13		Successfully calculated model scores.
+2021-08-27/14:22:13		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:22:13		Successfully trained model.
+2021-08-27/14:22:13		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:22:13		Successfully predicted X_test.
+2021-08-27/14:22:14		Successfully calculated model scores.
+2021-08-27/14:22:14		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:22:14		Successfully trained model.
+2021-08-27/14:22:14		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:22:14		Successfully predicted X_test.
+2021-08-27/14:22:14		Successfully calculated model scores.
+2021-08-27/14:22:14		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:22:14		Successfully trained model.
+2021-08-27/14:22:14		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:22:14		Successfully predicted X_test.
+2021-08-27/14:22:14		Successfully calculated model scores.
+2021-08-27/14:22:14		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:22:14		Successfully trained model.
+2021-08-27/14:22:14		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:22:14		Successfully predicted X_test.
+2021-08-27/14:22:14		Successfully calculated model scores.
+2021-08-27/14:22:14		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:22:14		Successfully trained model.
+2021-08-27/14:22:14		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:22:14		Successfully predicted X_test.
+2021-08-27/14:22:14		Successfully calculated model scores.
+2021-08-27/14:22:14		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:22:14		Successfully trained model.
+2021-08-27/14:22:14		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:22:14		Successfully predicted X_test.
+2021-08-27/14:22:14		Successfully calculated model scores.
+2021-08-27/14:22:14		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:22:14		Successfully trained model.
+2021-08-27/14:22:14		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:22:14		Successfully predicted X_test.
+2021-08-27/14:22:14		Successfully calculated model scores.
+2021-08-27/14:22:15		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:22:15		Successfully trained model.
+2021-08-27/14:22:15		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:22:15		Successfully predicted X_test.
+2021-08-27/14:22:15		Successfully calculated model scores.
+2021-08-27/14:22:15		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:22:15		Successfully trained model.
+2021-08-27/14:22:15		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:22:15		Successfully predicted X_test.
+2021-08-27/14:22:15		Successfully calculated model scores.
+2021-08-27/14:22:15		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:22:15		Successfully trained model.
+2021-08-27/14:22:15		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:22:15		Successfully predicted X_test.
+2021-08-27/14:22:15		Successfully calculated model scores.
+2021-08-27/14:22:15		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:22:15		Successfully trained model.
+2021-08-27/14:22:15		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:22:15		Successfully predicted X_test.
+2021-08-27/14:22:15		Successfully calculated model scores.
+2021-08-27/14:22:15		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:22:15		Successfully trained model.
+2021-08-27/14:22:15		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:22:15		Successfully predicted X_test.
+2021-08-27/14:22:15		Successfully calculated model scores.
+2021-08-27/14:22:15		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:22:15		Successfully trained model.
+2021-08-27/14:22:15		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:22:15		Successfully predicted X_test.
+2021-08-27/14:22:15		Successfully calculated model scores.
+2021-08-27/14:22:15		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:22:15		Successfully trained model.
+2021-08-27/14:22:15		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:22:15		Successfully predicted X_test.
+2021-08-27/14:22:15		Successfully calculated model scores.
+2021-08-27/14:22:16		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:22:16		Successfully trained model.
+2021-08-27/14:22:16		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:22:16		Successfully predicted X_test.
+2021-08-27/14:22:16		Successfully calculated model scores.
+2021-08-27/14:22:16		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:22:16		Successfully trained model.
+2021-08-27/14:22:16		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:22:16		Successfully predicted X_test.
+2021-08-27/14:22:16		Successfully calculated model scores.
+2021-08-27/14:22:16		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:22:16		Successfully trained model.
+2021-08-27/14:22:16		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:22:16		Successfully predicted X_test.
+2021-08-27/14:22:16		Successfully calculated model scores.
+2021-08-27/14:22:16		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:22:16		Successfully trained model.
+2021-08-27/14:22:16		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:22:16		Successfully predicted X_test.
+2021-08-27/14:22:16		Successfully calculated model scores.
+2021-08-27/14:22:16		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:22:16		Successfully trained model.
+2021-08-27/14:22:16		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:22:16		Successfully predicted X_test.
+2021-08-27/14:22:16		Successfully calculated model scores.
+2021-08-27/14:22:16		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:22:16		Successfully trained model.
+2021-08-27/14:22:16		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:22:16		Successfully predicted X_test.
+2021-08-27/14:22:16		Successfully calculated model scores.
+2021-08-27/14:22:17		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:22:17		Successfully trained model.
+2021-08-27/14:22:17		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:22:17		Successfully predicted X_test.
+2021-08-27/14:22:17		Successfully calculated model scores.
+2021-08-27/14:22:17		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:22:17		Successfully trained model.
+2021-08-27/14:22:17		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:22:17		Successfully predicted X_test.
+2021-08-27/14:22:17		Successfully calculated model scores.
+2021-08-27/14:22:17		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:22:17		Successfully trained model.
+2021-08-27/14:22:17		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:22:17		Successfully predicted X_test.
+2021-08-27/14:22:17		Successfully calculated model scores.
+2021-08-27/14:22:17		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:22:17		Successfully trained model.
+2021-08-27/14:22:17		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:22:17		Successfully predicted X_test.
+2021-08-27/14:22:17		Successfully calculated model scores.
+2021-08-27/14:22:17		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:22:17		Successfully trained model.
+2021-08-27/14:22:17		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:22:17		Successfully predicted X_test.
+2021-08-27/14:22:17		Successfully calculated model scores.
+2021-08-27/14:22:17		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:22:17		Successfully trained model.
+2021-08-27/14:22:17		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:22:17		Successfully predicted X_test.
+2021-08-27/14:22:17		Successfully calculated model scores.
+2021-08-27/14:22:17		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:22:17		Successfully trained model.
+2021-08-27/14:22:17		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:22:17		Successfully predicted X_test.
+2021-08-27/14:22:17		Successfully calculated model scores.
+2021-08-27/14:22:18		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:22:18		Successfully trained model.
+2021-08-27/14:22:18		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:22:18		Successfully predicted X_test.
+2021-08-27/14:22:18		Successfully calculated model scores.
+2021-08-27/14:22:18		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:22:18		Successfully trained model.
+2021-08-27/14:22:18		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:22:18		Successfully predicted X_test.
+2021-08-27/14:22:18		Successfully calculated model scores.
+2021-08-27/14:22:18		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:22:18		Successfully trained model.
+2021-08-27/14:22:18		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:22:18		Successfully predicted X_test.
+2021-08-27/14:22:18		Successfully calculated model scores.
+2021-08-27/14:22:18		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:22:18		Successfully trained model.
+2021-08-27/14:22:18		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:22:18		Successfully predicted X_test.
+2021-08-27/14:22:18		Successfully calculated model scores.
+2021-08-27/14:22:18		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:22:18		Successfully trained model.
+2021-08-27/14:22:18		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:22:18		Successfully predicted X_test.
+2021-08-27/14:22:18		Successfully calculated model scores.
+2021-08-27/14:22:18		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:22:18		Successfully trained model.
+2021-08-27/14:22:18		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:22:18		Successfully predicted X_test.
+2021-08-27/14:22:18		Successfully calculated model scores.
+2021-08-27/14:22:18		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:22:18		Successfully trained model.
+2021-08-27/14:22:18		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:22:18		Successfully predicted X_test.
+2021-08-27/14:22:18		Successfully calculated model scores.
+2021-08-27/14:22:19		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:22:19		Successfully trained model.
+2021-08-27/14:22:19		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:22:19		Successfully predicted X_test.
+2021-08-27/14:22:19		Successfully calculated model scores.
+2021-08-27/14:22:19		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:22:19		Successfully trained model.
+2021-08-27/14:22:19		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:22:19		Successfully predicted X_test.
+2021-08-27/14:22:19		Successfully calculated model scores.
+2021-08-27/14:22:19		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:22:19		Successfully trained model.
+2021-08-27/14:22:19		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:22:19		Successfully predicted X_test.
+2021-08-27/14:22:19		Successfully calculated model scores.
+2021-08-27/14:22:19		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:22:19		Successfully trained model.
+2021-08-27/14:22:19		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:22:19		Successfully predicted X_test.
+2021-08-27/14:22:19		Successfully calculated model scores.
+2021-08-27/14:22:19		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:22:19		Successfully trained model.
+2021-08-27/14:22:19		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:22:19		Successfully predicted X_test.
+2021-08-27/14:22:19		Successfully calculated model scores.
+2021-08-27/14:22:19		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:22:19		Successfully trained model.
+2021-08-27/14:22:19		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:22:19		Successfully predicted X_test.
+2021-08-27/14:22:19		Successfully calculated model scores.
+2021-08-27/14:22:20		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:22:20		Successfully trained model.
+2021-08-27/14:22:20		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:22:20		Successfully predicted X_test.
+2021-08-27/14:22:20		Successfully calculated model scores.
+2021-08-27/14:22:20		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:22:20		Successfully trained model.
+2021-08-27/14:22:20		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:22:20		Successfully predicted X_test.
+2021-08-27/14:22:20		Successfully calculated model scores.
+2021-08-27/14:22:20		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:22:20		Successfully trained model.
+2021-08-27/14:22:20		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:22:20		Successfully predicted X_test.
+2021-08-27/14:22:20		Successfully calculated model scores.
+2021-08-27/14:22:20		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:22:20		Successfully trained model.
+2021-08-27/14:22:20		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:22:20		Successfully predicted X_test.
+2021-08-27/14:22:20		Successfully calculated model scores.
+2021-08-27/14:22:20		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:22:20		Successfully trained model.
+2021-08-27/14:22:20		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:22:20		Successfully predicted X_test.
+2021-08-27/14:22:20		Successfully calculated model scores.
+2021-08-27/14:22:20		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:22:20		Successfully trained model.
+2021-08-27/14:22:20		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:22:20		Successfully predicted X_test.
+2021-08-27/14:22:20		Successfully calculated model scores.
+2021-08-27/14:22:20		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:22:20		Successfully trained model.
+2021-08-27/14:22:20		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:22:20		Successfully predicted X_test.
+2021-08-27/14:22:20		Successfully calculated model scores.
+2021-08-27/14:22:21		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:22:21		Successfully trained model.
+2021-08-27/14:22:21		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:22:21		Successfully predicted X_test.
+2021-08-27/14:22:21		Successfully calculated model scores.
+2021-08-27/14:22:21		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:22:21		Successfully trained model.
+2021-08-27/14:22:21		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:22:21		Successfully predicted X_test.
+2021-08-27/14:22:21		Successfully calculated model scores.
+2021-08-27/14:22:21		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:22:21		Successfully trained model.
+2021-08-27/14:22:21		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:22:21		Successfully predicted X_test.
+2021-08-27/14:22:21		Successfully calculated model scores.
+2021-08-27/14:22:21		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:22:21		Successfully trained model.
+2021-08-27/14:22:21		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:22:21		Successfully predicted X_test.
+2021-08-27/14:22:21		Successfully calculated model scores.
+2021-08-27/14:22:21		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:22:21		Successfully trained model.
+2021-08-27/14:22:21		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:22:21		Successfully predicted X_test.
+2021-08-27/14:22:21		Successfully calculated model scores.
+2021-08-27/14:22:21		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:22:21		Successfully trained model.
+2021-08-27/14:22:21		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:22:21		Successfully predicted X_test.
+2021-08-27/14:22:21		Successfully calculated model scores.
+2021-08-27/14:22:22		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:22:22		Successfully trained model.
+2021-08-27/14:22:22		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:22:22		Successfully predicted X_test.
+2021-08-27/14:22:22		Successfully calculated model scores.
+2021-08-27/14:22:22		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:22:22		Successfully trained model.
+2021-08-27/14:22:22		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:22:22		Successfully predicted X_test.
+2021-08-27/14:22:22		Successfully calculated model scores.
+2021-08-27/14:22:22		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:22:22		Successfully trained model.
+2021-08-27/14:22:22		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:22:22		Successfully predicted X_test.
+2021-08-27/14:22:22		Successfully calculated model scores.
+2021-08-27/14:22:22		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:22:22		Successfully trained model.
+2021-08-27/14:22:22		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:22:22		Successfully predicted X_test.
+2021-08-27/14:22:22		Successfully calculated model scores.
+2021-08-27/14:22:22		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:22:22		Successfully trained model.
+2021-08-27/14:22:22		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:22:22		Successfully predicted X_test.
+2021-08-27/14:22:22		Successfully calculated model scores.
+2021-08-27/14:22:22		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:22:22		Successfully trained model.
+2021-08-27/14:22:22		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:22:22		Successfully predicted X_test.
+2021-08-27/14:22:22		Successfully calculated model scores.
+2021-08-27/14:22:22		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:22:22		Successfully trained model.
+2021-08-27/14:22:22		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:22:22		Successfully predicted X_test.
+2021-08-27/14:22:22		Successfully calculated model scores.
+2021-08-27/14:22:23		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:22:23		Successfully trained model.
+2021-08-27/14:22:23		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:22:23		Successfully predicted X_test.
+2021-08-27/14:22:23		Successfully calculated model scores.
+2021-08-27/14:22:23		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:22:23		Successfully trained model.
+2021-08-27/14:22:23		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:22:23		Successfully predicted X_test.
+2021-08-27/14:22:23		Successfully calculated model scores.
+2021-08-27/14:22:23		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:22:23		Successfully trained model.
+2021-08-27/14:22:23		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:22:23		Successfully predicted X_test.
+2021-08-27/14:22:23		Successfully calculated model scores.
+2021-08-27/14:22:23		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:22:23		Successfully trained model.
+2021-08-27/14:22:23		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:22:23		Successfully predicted X_test.
+2021-08-27/14:22:23		Successfully calculated model scores.
+2021-08-27/14:22:23		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:22:23		Successfully trained model.
+2021-08-27/14:22:23		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:22:23		Successfully predicted X_test.
+2021-08-27/14:22:23		Successfully calculated model scores.
+2021-08-27/14:22:23		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:22:23		Successfully trained model.
+2021-08-27/14:22:23		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:22:23		Successfully predicted X_test.
+2021-08-27/14:22:23		Successfully calculated model scores.
+2021-08-27/14:22:24		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:22:24		Successfully trained model.
+2021-08-27/14:22:24		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:22:24		Successfully predicted X_test.
+2021-08-27/14:22:24		Successfully calculated model scores.
+2021-08-27/14:22:24		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:22:24		Successfully trained model.
+2021-08-27/14:22:24		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:22:24		Successfully predicted X_test.
+2021-08-27/14:22:24		Successfully calculated model scores.
+2021-08-27/14:22:24		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:22:24		Successfully trained model.
+2021-08-27/14:22:24		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:22:24		Successfully predicted X_test.
+2021-08-27/14:22:24		Successfully calculated model scores.
+2021-08-27/14:22:24		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:22:24		Successfully trained model.
+2021-08-27/14:22:24		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:22:24		Successfully predicted X_test.
+2021-08-27/14:22:24		Successfully calculated model scores.
+2021-08-27/14:22:24		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:22:24		Successfully trained model.
+2021-08-27/14:22:24		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:22:24		Successfully predicted X_test.
+2021-08-27/14:22:24		Successfully calculated model scores.
+2021-08-27/14:22:24		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:22:24		Successfully trained model.
+2021-08-27/14:22:24		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:22:24		Successfully predicted X_test.
+2021-08-27/14:22:24		Successfully calculated model scores.
+2021-08-27/14:22:24		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:22:24		Successfully trained model.
+2021-08-27/14:22:24		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:22:24		Successfully predicted X_test.
+2021-08-27/14:22:24		Successfully calculated model scores.
+2021-08-27/14:22:25		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:22:25		Successfully trained model.
+2021-08-27/14:22:25		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:22:25		Successfully predicted X_test.
+2021-08-27/14:22:25		Successfully calculated model scores.
+2021-08-27/14:22:25		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:22:25		Successfully trained model.
+2021-08-27/14:22:25		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:22:25		Successfully predicted X_test.
+2021-08-27/14:22:25		Successfully calculated model scores.
+2021-08-27/14:22:25		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:22:25		Successfully trained model.
+2021-08-27/14:22:25		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:22:25		Successfully predicted X_test.
+2021-08-27/14:22:25		Successfully calculated model scores.
+2021-08-27/14:22:25		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:22:25		Successfully trained model.
+2021-08-27/14:22:25		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:22:25		Successfully predicted X_test.
+2021-08-27/14:22:25		Successfully calculated model scores.
+2021-08-27/14:22:25		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:22:25		Successfully trained model.
+2021-08-27/14:22:25		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:22:25		Successfully predicted X_test.
+2021-08-27/14:22:25		Successfully calculated model scores.
+2021-08-27/14:22:25		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:22:25		Successfully trained model.
+2021-08-27/14:22:25		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:22:25		Successfully predicted X_test.
+2021-08-27/14:22:25		Successfully calculated model scores.
+2021-08-27/14:22:25		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:22:26		Successfully trained model.
+2021-08-27/14:22:26		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:22:26		Successfully predicted X_test.
+2021-08-27/14:22:26		Successfully calculated model scores.
+2021-08-27/14:22:26		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:22:26		Successfully trained model.
+2021-08-27/14:22:26		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:22:26		Successfully predicted X_test.
+2021-08-27/14:22:26		Successfully calculated model scores.
+2021-08-27/14:22:26		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:22:26		Successfully trained model.
+2021-08-27/14:22:26		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:22:26		Successfully predicted X_test.
+2021-08-27/14:22:26		Successfully calculated model scores.
+2021-08-27/14:22:26		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:22:26		Successfully trained model.
+2021-08-27/14:22:26		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:22:26		Successfully predicted X_test.
+2021-08-27/14:22:26		Successfully calculated model scores.
+2021-08-27/14:22:26		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:22:26		Successfully trained model.
+2021-08-27/14:22:26		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:22:26		Successfully predicted X_test.
+2021-08-27/14:22:26		Successfully calculated model scores.
+2021-08-27/14:22:26		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:22:26		Successfully trained model.
+2021-08-27/14:22:26		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:22:26		Successfully predicted X_test.
+2021-08-27/14:22:26		Successfully calculated model scores.
+2021-08-27/14:22:27		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:22:27		Successfully trained model.
+2021-08-27/14:22:27		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:22:27		Successfully predicted X_test.
+2021-08-27/14:22:27		Successfully calculated model scores.
+2021-08-27/14:22:27		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:22:27		Successfully trained model.
+2021-08-27/14:22:27		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:22:27		Successfully predicted X_test.
+2021-08-27/14:22:27		Successfully calculated model scores.
+2021-08-27/14:22:27		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:22:27		Successfully trained model.
+2021-08-27/14:22:27		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:22:27		Successfully predicted X_test.
+2021-08-27/14:22:27		Successfully calculated model scores.
+2021-08-27/14:22:27		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:22:27		Successfully trained model.
+2021-08-27/14:22:27		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:22:27		Successfully predicted X_test.
+2021-08-27/14:22:27		Successfully calculated model scores.
+2021-08-27/14:22:27		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:22:27		Successfully trained model.
+2021-08-27/14:22:27		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:22:27		Successfully predicted X_test.
+2021-08-27/14:22:27		Successfully calculated model scores.
+2021-08-27/14:22:27		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:22:27		Successfully trained model.
+2021-08-27/14:22:27		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:22:27		Successfully predicted X_test.
+2021-08-27/14:22:27		Successfully calculated model scores.
+2021-08-27/14:22:28		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:22:28		Successfully trained model.
+2021-08-27/14:22:28		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:22:28		Successfully predicted X_test.
+2021-08-27/14:22:28		Successfully calculated model scores.
+2021-08-27/14:22:28		Successfully ran 300 optuna study trials.
+2021-08-27/14:22:28		Successfully appended best model parameters as a dictionary.
+2021-08-27/14:22:28		Successfully dumped the best parameters in best_params.json .
+2021-08-27/14:22:28		Entered dump_best_model method of ModelDumper class.
+2021-08-27/14:22:28		Successfully loaded parameters from best_params.json .
+2021-08-27/14:22:28		Entered get_trained_model method of ModelTrainer class
+2021-08-27/14:22:28		Successfully trained model.
+2021-08-27/14:22:28		Successfully trained final model.
+2021-08-27/14:22:28		Successfully dumped final model as best_model.joblib .
+2021-08-27/14:22:28		Entered load_best_model method of ModelTester class.
+2021-08-27/14:22:28		Entered get_model_scores method of ModelScorer class
+2021-08-27/14:22:28		Successfully predicted X_test.
+2021-08-27/14:22:28		Successfully calculated model scores.
+2021-08-27/14:22:28		Successfully loaded best model.
+2021-08-27/14:22:28		Successfully executed model training pipeline.
